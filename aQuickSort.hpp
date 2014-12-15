@@ -2,7 +2,7 @@
 #define __AQUICKSORT__
 
 namespace lobstone {
-  template<class T> void hello(T a);
+  template<class T> void printVector(vector<T> a);
 }
 
 #include "aQuickSort.cpp"
