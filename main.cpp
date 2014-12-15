@@ -5,7 +5,10 @@ using namespace std;
 using namespace lobstone;
 
 int main() {
-  vector<int> a(4, 100);
+  vector<char> a(4, 'a');
+  a[0] = 'b';
+  printVector(a);
+  sort(a);
   printVector(a);
 
   return 0;
