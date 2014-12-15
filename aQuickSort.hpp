@@ -5,4 +5,6 @@ namespace lobstone {
   void hello();
 }
 
+#include "aQuickSort.cpp"
+
 #endif

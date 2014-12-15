@@ -1,7 +1,8 @@
 
 #include <iostream>
-#include "aQuickSort.h"
+#include "aQuickSort.hpp"
+using namespace std;
 
 void lobstone::hello() {
-  std::cout << "Hello world\n";
+  cout << "Hello world\n";
 }
