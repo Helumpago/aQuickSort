@@ -1,6 +1,6 @@
 
 CC=clang++
-FL=$(DIST)
+FL=$(DBG)
 DBG=-g -Wall
 DIST=-O3
 

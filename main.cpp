@@ -1,5 +1,6 @@
 
 #include "aQuickSort.h"
+using namespace lobstone;
 
 int main() {
   hello();

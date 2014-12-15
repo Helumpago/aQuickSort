@@ -2,6 +2,6 @@
 #include <iostream>
 #include "aQuickSort.h"
 
-void hello() {
+void lobstone::hello() {
   std::cout << "Hello world\n";
 }
