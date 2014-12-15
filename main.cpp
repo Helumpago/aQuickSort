@@ -7,9 +7,9 @@ using namespace lobstone;
 int main() {
   vector<char> a(4, 'a');
   a[0] = 'b';
-  printVector(a);
-  sort(a);
-  printVector(a);
+  aQuickSort::printVector(a);
+  aQuickSort::sort(a);
+  aQuickSort::printVector(a);
 
   return 0;
 }
