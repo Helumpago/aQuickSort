@@ -3,5 +3,5 @@
 #include "aQuickSort.h"
 
 void hello() {
-	std::cout << "Hello world!" << std::endl;
+  std::cout << "Hello world\n";
 }

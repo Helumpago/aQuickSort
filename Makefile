@@ -1,18 +1,17 @@
 
 CC=clang++
+FL=$(DIST)
 DBG=-g -Wall
-FL=$(DBG)
+DIST=-O3
 
-out=o.exe
-
-all: main
+OUT=o.exe
 
 main: aQuickSort
-	$(CC) $(FL)  main.cpp aQuickSort.o -o $(out)
+	$(CC) $(FL) aQuickSort.o main.cpp -o $(OUT)
 aQuickSort:
 	$(CC) $(FL) -c aQuickSort.cpp -o aQuickSort.o
 
 run:
-	./$(out)
+	./$(OUT)
 clean:
 	rm *.o *.exe
