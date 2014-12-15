@@ -3,6 +3,6 @@
 #include "aQuickSort.hpp"
 using namespace std;
 
-void lobstone::hello() {
+template<class T> void lobstone::hello(T a) {
   cout << "Hello world\n";
 }

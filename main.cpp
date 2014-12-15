@@ -3,7 +3,7 @@
 using namespace lobstone;
 
 int main() {
-  hello();
+  hello(3);
 
   return 0;
 }
