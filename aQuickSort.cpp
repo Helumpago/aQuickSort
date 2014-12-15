@@ -6,5 +6,7 @@ using namespace std;
 
 template<class T> 
 void lobstone::printVector(vector<T> a) {
-  cout << "Hello world\n";
+  for(int i = 0; i < a.size(); i++) {
+    cout << i << ": " << a[i] << endl;
+  }
 }
