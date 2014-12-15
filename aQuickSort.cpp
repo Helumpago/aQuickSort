@@ -17,7 +17,7 @@ void lobstone::aQuickSort::printVector(vector<T> a) {
 
 template<class T>
 void lobstone::aQuickSort::sort(vector<T> &a) {
-  quicksort(a, 0, a.size());
+  quicksort(a, 0, a.size() - 1);
 }
 
 /**
@@ -46,7 +46,7 @@ int partition(vector<T> &a, int start, int end) {
   T pivot = a[end]; // Choose pivot value
   int swapLoc = start; // Index of element to swap with
 
-  for(int i = start; i <= end; i++) {
+  for(int i = start; i < end; i++) {
     if(a[i] < pivot) {
       T tmp = a[i];
       a[i] = a[swapLoc];
